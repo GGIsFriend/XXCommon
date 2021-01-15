@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		04854FDFA5D558A2595CB484 /* Pods-XXCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXCommon_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XXCommon_Tests/Pods-XXCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		16064D4D703D869CD1FE3293 /* XXCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXCommon.podspec; path = ../XXCommon.podspec; sourceTree = "<group>"; };
+		16064D4D703D869CD1FE3293 /* XXCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXCommon.podspec; path = ../XXCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		221C1229F7D8DFA11DC1B596 /* Pods_XXCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC7D44CB0F1EDEFC20FFB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2FC7D44CB0F1EDEFC20FFB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XXCommon_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXCommon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6A68D8B2D99BE1E084431EE8 /* Pods_XXCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		731644F6DFF988D91D25917D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		731644F6DFF988D91D25917D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EC63117C9D513416EA9E7AC /* Pods-XXCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXCommon_Tests.release.xcconfig"; path = "Target Support Files/Pods-XXCommon_Tests/Pods-XXCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A10F85B6DCE010A4E07927EC /* Pods-XXCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXCommon_Example.release.xcconfig"; path = "Target Support Files/Pods-XXCommon_Example/Pods-XXCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				04854FDFA5D558A2595CB484 /* Pods-XXCommon_Tests.debug.xcconfig */,
 				8EC63117C9D513416EA9E7AC /* Pods-XXCommon_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
