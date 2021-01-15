@@ -1,8 +1,8 @@
 {
   "name": "XXCommon",
   "version": "0.1.0",
-  "summary": "A short description of XXCommon.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "summary",
+  "description": "description",
   "homepage": "https://github.com/GGIsFriend/XXCommon",
   "license": {
     "type": "MIT",
