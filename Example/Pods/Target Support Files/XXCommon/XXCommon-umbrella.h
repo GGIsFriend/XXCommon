@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LocalPodObj.h"
 
 FOUNDATION_EXPORT double XXCommonVersionNumber;
 FOUNDATION_EXPORT const unsigned char XXCommonVersionString[];
